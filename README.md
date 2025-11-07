@@ -14,6 +14,7 @@ Have you ever wondered what the inside of a computer looks like or what each par
 - **Detailed Information:** Click on any component to get a concise description of its function and importance.
 - **Intuitive UI/UX:** A clean and modern interface, powered by Tailwind CSS, ensures a smooth and enjoyable user experience.
 - **Educational Focus:** The application is designed to be a valuable resource for students, tech enthusiasts, and anyone curious about PC hardware.
+- **Responsive Design (Mobile-Ready):** The application ensures a seamless experience across all devices, from large monitors to smartphones, adapting the layout and 3D controls for optimal viewing and touch interaction.
 
 ## 🛠️ Built With
 
