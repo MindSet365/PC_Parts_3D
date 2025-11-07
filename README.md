@@ -17,9 +17,9 @@ Have you ever wondered what the inside of a computer looks like or what each par
 
 ## 🛠️ Built With
 
-![Next.js](https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white) &nbsp; **A powerful React framework for building user interfaces alongside server funcionality.**
+[![Next.js](https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)](https://nextjs.org/) &nbsp; **A powerful React framework for building user interfaces alongside server funcionality.**
 
-![TypeScript](https://img.shields.io/badge/typescript-3178C6?style=for-the-badge&logo=typescript&logoColor=white) &nbsp; **A strongly typed programming language used for building large, scalable applications.**
+[![TypeScript](https://img.shields.io/badge/typescript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/) &nbsp; **A strongly typed programming language used for building large, scalable applications.**
 
 [![TailwindCSS](https://img.shields.io/badge/tailwind_css-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)](https://tailwindcss.com/) &nbsp; **A utility-first CSS framework for rapid and custom UI development.**
 
