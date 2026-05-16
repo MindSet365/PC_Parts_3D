@@ -16,15 +16,65 @@ Have you ever wondered what the inside of a computer looks like or what each par
 - **Educational Focus:** The application is designed to be a valuable resource for students, tech enthusiasts, and anyone curious about PC hardware.
 - **Responsive Design (Mobile-Ready):** The application ensures a seamless experience across all devices, from large monitors to smartphones, adapting the layout and 3D controls for optimal viewing and touch interaction.
 
-## 🛠️ Built With
+# PC Parts Catalog 3D
 
-[![Next.js](https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)](https://nextjs.org/) &nbsp; **A powerful React framework for building user interfaces alongside server funcionality.**
+Interactive 3D catalog for exploring computer hardware parts.
 
-[![TypeScript](https://img.shields.io/badge/typescript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/) &nbsp; **A strongly typed programming language used for building large, scalable applications.**
+> Built with **Next.js (App Router)**, **React Three Fiber**, **Three.js**, **Tailwind CSS**, and **Framer Motion**.
 
-[![TailwindCSS](https://img.shields.io/badge/tailwind_css-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)](https://tailwindcss.com/) &nbsp; **A utility-first CSS framework for rapid and custom UI development.**
+---
 
-[![Three.js](https://img.shields.io/badge/three.js-000000?style=for-the-badge&logo=three.js&logoColor=white)](https://threejs.org/) &nbsp; **A JavaScript 3D library that makes creating and displaying animated 3D graphics in the browser with efficiency.**
+## ✨ What it does
+- Renders real-time **3D models** (GLB) of PC components (CPU, motherboard, storage, networking, etc.).
+- Lets users browse categories through a responsive **sidebar**.
+- Supports an **immersive fullscreen** mode for detailed viewing.
 
-[![React Three Fiber](https://img.shields.io/badge/react_three_fiber-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://docs.pmnd.rs/react-three-fiber/getting-started/introduction) &nbsp; **For handling the creation and rendering of 3D graphics in a declarative way.**
+---
+
+## 🕹️ How to use
+1. Open the app.
+2. Use the **sidebar** to navigate between categories.
+3. Click a category item to view its details.
+4. Use **Open Fullscreen** to enter immersive mode.
+
+---
+
+## 🧱 Tech stack
+- **Next.js**
+- **React**
+- **TypeScript**
+- **Tailwind CSS**
+- **react-three/fiber**
+- **@react-three/drei**
+- **Three.js**
+- **Framer Motion**
+- **GSAP**
+
+---
+
+## 🌍 Live demo
+Deployed on Netlify: https://pc-parts-3d.netlify.app
+
+
+---
+
+
+## 🗂️ Project structure (high-level)
+- `app/`
+  - `layout.tsx`, `page.tsx`
+  - route groups like `/(root)` and `/(pages)`
+- `app/components/`
+  - UI components (Navbar, Sidebar, Modals)
+  - 3D components under `app/components/canvas/`
+
+---
+
+## 📦 Assets
+3D models are loaded from `public/models/` (GLB files).
+
+---
+
+## Notes
+This project is designed for learning and exploration—3D models are for illustrative purposes.
+
 
